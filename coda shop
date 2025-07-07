@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top Up Free Fire - Versi Biru</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f4ff;
+    }
+
+    header {
+      background-color: #0066cc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #0066cc;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input,
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .btn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 12px;
+      margin-top: 20px;
+      width: 100%;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Top Up Free Fire</h1>
+    <p>Versi Biru - Clone Codashop</p>
+  </header>
+
+  <div class="container">
+    <h2>Masukkan ID Pemain</h2>
+    <label for="userId">User ID:</label>
+    <input type="text" id="userId" placeholder="Contoh: 123456789" />
+
+    <label for="zone">Zone ID:</label>
+    <input type="text" id="zone" placeholder="Contoh: 1234" />
+
+    <label for="nominal">Pilih Nominal:</label>
+    <select id="nominal">
+      <option>70 Diamond - Rp10.000</option>
+      <option>140 Diamond - Rp20.000</option>
+      <option>355 Diamond - Rp50.000</option>
+    </select>
+
+    <button class="btn">Beli Sekarang</button>
+  </div>
+</body>
+</html>
